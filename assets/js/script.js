@@ -55,7 +55,7 @@ window.addEventListener("scroll", function () {
 
 const sliders = document.querySelectorAll("[data-slider]");
 
-const initSlider = function(currentSlider) {
+const initSlider = function (currentSlider) {
 
   const sldierContainer = currentSlider.querySelector("[data-slider-container]");
   const sliderPrevBtn = currentSlider.querySelector("[data-slider-prev]");
@@ -89,7 +89,7 @@ const initSlider = function(currentSlider) {
    * PREVIOUS SLIDE
    */
 
-   const slidePrev = function () {
+  const slidePrev = function () {
 
     if (currentSlidePos <= 0) {
       currentSlidePos = sldierContainer.childElementCount - 1;
